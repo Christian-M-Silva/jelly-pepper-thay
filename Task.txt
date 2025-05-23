@@ -1,0 +1,18 @@
+- FLUXO DESEJADO PELO CLIENTE
+    - Cliente clica no link que vai está no zap ou face
+    - Vai para o site onde vai ser uma breve apresentação do tipo, olá seja bem vindo a tela de encomendas faça seu pedido
+        - Nessa tela exibi os produtos a ser comprados (Que serão cadastrados em outro lugar m uma tela ADM)
+    - Ele poderá selecionar os produtos e as quantidades dele
+    - Na tela de carrinhos ele poderá remover produtos, ou alterar a quantidade do mesmo, ou voltar para a tela de produtos e escolher mais
+    - Na tela de carrinho ter´aum botão que ao selecionar irá para o zap da Thay enviando os dados necessarios, que são, os valores, os produtos e o valor total
+
+- Proximos passos
+    - Ver se da para ter o google adsence
+    - Estrutura o projeto com as regras e assuntos tecnicos (tecnologias, regras e fluxo) seguindo o fluxo pedido pelo Cliente (Já posso planejar isso pensando nos testes)
+    - Estruturar design do site (Layout, cores, as labels, mapear o que poderá ser componentizado) (Já posso planejar isso pensando nos testes)
+    - Analisar o fluxo para ver se tem alguma coisa mais de testes
+    - Configurar toda infra o que inclui as hospedagens e os repositorios
+        - O front vai ser no netfly
+        - Vai precisar de API (Se precisar posso hospedar no Render https://www.youtube.com/watch?v=0v74FFEPcrU)
+        - Vai precisar de BD (Hospedar de forma gratuita https://www.youtube.com/watch?v=8eQDSTQyqQg)
+    - Começar o desenvolvimento
