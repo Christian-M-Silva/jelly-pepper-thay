@@ -7,12 +7,21 @@
     - Na tela de carrinho ter´aum botão que ao selecionar irá para o zap da Thay enviando os dados necessarios, que são, os valores, os produtos e o valor total
 
 - Proximos passos
-    - Ver se da para ter o google adsence
-    - Estrutura o projeto com as regras e assuntos tecnicos (tecnologias, regras e fluxo) seguindo o fluxo pedido pelo Cliente (Já posso planejar isso pensando nos testes)
-    - Estruturar design do site (Layout, cores, as labels, mapear o que poderá ser componentizado) (Já posso planejar isso pensando nos testes)
+    - Dividi as funcionalidades por telas, agora tenho que planejar em audio e colocar no grupo de tasks como vai ser, não preciso planejar necessariamente o layout, mas sempre concientizar a importancia de parar e refletir no layout, o uso de componentes e os testes, e que no final de tudo. As funcionalidades e telas que preciso planejar e colocar em audio:
+        - PAREI AQUI!!!!!!!: Já fiz a da tela de ADMIN, pois a ideia é usar a tela de ADMIN para editar os produtos que serão apresentados no site. Agora tenho que trancrever o que planejei desse audio aqui e depois prosseguir no meu planejamento.
+
     - Analisar o fluxo para ver se tem alguma coisa mais de testes
-    - Configurar toda infra o que inclui as hospedagens e os repositorios
+   
+    - Começar o desenvolvimento
+
+
+- Plano de desenvolvimento
+     - Configurar toda infra o que inclui as hospedagens e os repositorios
         - O front vai ser no netfly
         - Vai precisar de API (Se precisar posso hospedar no Render https://www.youtube.com/watch?v=0v74FFEPcrU)
         - Vai precisar de BD (Hospedar de forma gratuita https://www.youtube.com/watch?v=8eQDSTQyqQg)
-    - Começar o desenvolvimento
+
+    - Criar Readme incluindo as informações iniciais que são:
+        - Front (React), Back (Node(Adonis)) e BD a decidir
+    
+    - Migrations
