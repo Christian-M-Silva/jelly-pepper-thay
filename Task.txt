@@ -8,7 +8,7 @@
 
 - Proximos passos
     - Dividi as funcionalidades por telas, agora tenho que planejar em audio e colocar no grupo de tasks como vai ser, não preciso planejar necessariamente o layout, mas sempre concientizar a importancia de parar e refletir no layout, o uso de componentes e os testes, e que no final de tudo. As funcionalidades e telas que preciso planejar e colocar em audio:
-        - PAREI AQUI!!!!!!!: Já fiz a da tela de ADMIN, pois a ideia é usar a tela de ADMIN para editar os produtos que serão apresentados no site. Agora tenho que trancrever o que planejei desse audio aqui e depois prosseguir no meu planejamento.
+        - PAREI AQUI!!!!!!!: Já planejei tudo em audio agora estou revendo e anotando
 
     - Analisar o fluxo para ver se tem alguma coisa mais de testes
    
@@ -21,7 +21,28 @@
         - Vai precisar de API (Se precisar posso hospedar no Render https://www.youtube.com/watch?v=0v74FFEPcrU)
         - Vai precisar de BD (Hospedar de forma gratuita https://www.youtube.com/watch?v=8eQDSTQyqQg)
 
+    - Criar projeto em React com ts e configurar usando as versões mais recentes de node e React, anotar no engines do projeto a versão usada, se aqui eu ver mais alguma informação interessante anotar no Readme
+        - Vou usar Rotas então configurar elas
+        - Criar o .gitignore para projeto React
+
+    - Criar o projeto em Adonis com ts, configurar ele com as versões mais recentes, anotar no engines do projeto a versão usada, se aqui eu ver mais alguma informação interessante anotar no Readme.
+        - Criar o .gitignore para projeto Adonis
+
+    - Rotas em React
+        - Configurar para a tela de login ADM e criar as pag refernte a essa rota
+
+    - InputComponent
+        - Criar um input componente em que permita inserir o label, bordas arredondadas, posso pedir a IA para gerar para mim em React, tendo em mente a responsividade.
+        - Após a IA gerar eu só reviso ou configuro ele de acordo com as minhas necessidades
+        - O input terá que ter a prop de label
+
+    - Tela login ADM
+        - Pedir para IA gerar uma tela de login de ADM responsiva em React onde nessa tela terá 2 campos inputs que é o e-mail e senha, uma opção de alterar a senha e uma outra opção que é o botão de login
+        - Após gerar, tenho que ajustar o layout de acordo com o meu gosto
+        - Incluo os meus componentes de input
+
     - Criar Readme incluindo as informações iniciais que são:
-        - Front (React), Back (Node(Adonis)) e BD a decidir
+        - Front (React), Back (Node(Adonis)) e BD (Postgree)
+        - Informar a versão do React e Node de acordo com a engine do json
     
     - Migrations
