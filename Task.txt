@@ -8,7 +8,7 @@
 
 - Proximos passos
     - Dividi as funcionalidades por telas, agora tenho que planejar em audio e colocar no grupo de tasks como vai ser, não preciso planejar necessariamente o layout, mas sempre concientizar a importancia de parar e refletir no layout, o uso de componentes e os testes, e que no final de tudo. As funcionalidades e telas que preciso planejar e colocar em audio:
-        - PAREI AQUI!!!!!!!: Já planejei tudo em audio agora estou revendo e anotando, no segundo 0:25
+        - PAREI AQUI!!!!!!!: Já planejei tudo em audio agora estou revendo e anotando, no segundo 2:20
 
     - Analisar o fluxo para ver se tem alguma coisa mais de testes
    
@@ -35,6 +35,7 @@
         - Criar um input componente em que permita inserir o label, bordas arredondadas, posso pedir a IA para gerar para mim em React, tendo em mente a responsividade.
         - Após a IA gerar eu só reviso ou configuro ele de acordo com as minhas necessidades
         - O input terá que ter a prop de label
+        - Integrar a opção de ter validação, posso usar o pacote react-hook-form, (nunca usei então será algo aprender)
     
     - ModalComponent
         - Criar um modal em que permita ter um titulo a esquerda na parte superior e um texto abaixo, bordas arredondadas, posso pedir a IA para gerar para mim em React, tendo em mente a responsividade.
@@ -42,19 +43,29 @@
         - O titulo não é obrigatoria
             - Se não enviar o titulo ele simplesmente não é renderizado 
 
-
-    - Tela login ADM
-        - Pedir para IA gerar uma tela de login de ADM responsiva em React onde nessa tela terá 2 campos inputs que é o e-mail e senha, uma opção de alterar a senha e uma outra opção que é o botão de login
-        - Após gerar, tenho que ajustar o layout de acordo com o meu gosto
-        - Incluo os meus componentes de input
-        - Na opção de alterar senha, aparecerá um modal informando para verificar o e-mail
-    
     - Criar Model em Adonis para a tabela Adm
         - E-mail: string
         - password: vai ser uma string criptografada
         - id_password: string
 
-    - Instalar e configurar pacote de envio de e-mail
+    - Funcionalidade no back de login
+        - Controller de User (Post (Login))
+            - Vai validar a senha e o e-mail no bd, sendo que a senha é criptografada
+            - Estando tudo certo cria o token e retornar, aqui vou usar abordagem de enviar o acess token e o refresh ai posso até ver com IA como faz
+
+    - Tela login ADM
+        - Pedir para IA gerar uma tela de login de ADM responsiva em React onde nessa tela terá 2 campos inputs que é o e-mail e senha, uma opção de alterar a senha e uma outra opção que é o botão de login
+        - Após gerar, tenho que ajustar o layout de acordo com o meu gosto
+        - Incluo os meus componentes de input
+            - Para o e-mail será a label de e-mail e ele será obrigatorio e tem que ser no formato e-mail
+            - Para a senha será a label de senha e ele será obrigatorio e tem que ter pelo menos 7 caracteres e a senha tem que ter aqueles asteriscos
+        - Na opção de alterar senha, aparecerá um modal informando para verificar o e-mail
+        - Botão de login
+            - Só funcionará se as validações do input passar
+            - Chama a controller de User na rota de login, via post, enviando o e-mail e password
+                - Com o acess token retonado armazenado em memória ou localStorage e Refresh token: pode ir em HTTPOnly Cookie ou localStorage (HTTPOnly é mais seguro)
+
+    - Instalar e configurar pacote de envio de e-mail        
     
     - No campo password da tabela ADM tenho que deixar o valor inical padão sendo uma criptografia da senha 1234567 
 
