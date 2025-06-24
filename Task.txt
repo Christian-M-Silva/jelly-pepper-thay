@@ -8,7 +8,7 @@
 
 - Proximos passos
     - Dividi as funcionalidades por telas, agora tenho que planejar em audio e colocar no grupo de tasks como vai ser, não preciso planejar necessariamente o layout, mas sempre concientizar a importancia de parar e refletir no layout, o uso de componentes e os testes, e que no final de tudo. As funcionalidades e telas que preciso planejar e colocar em audio:
-        - PAREI AQUI!!!!!!!: Já planejei tudo em audio agora estou revendo e anotando, no segundo 2:20
+        - PAREI AQUI!!!!!!!: Já planejei tudo em audio agora estou revendo e anotando, 
 
     - Analisar o fluxo para ver se tem alguma coisa mais de testes
    
@@ -52,6 +52,7 @@
         - Controller de User (Post (Login))
             - Vai validar a senha e o e-mail no bd, sendo que a senha é criptografada
             - Estando tudo certo cria o token e retornar, aqui vou usar abordagem de enviar o acess token e o refresh ai posso até ver com IA como faz
+            - Se der erro retornar 401 com a mensagem de credenciais erradas
 
     - Tela login ADM
         - Pedir para IA gerar uma tela de login de ADM responsiva em React onde nessa tela terá 2 campos inputs que é o e-mail e senha, uma opção de alterar a senha e uma outra opção que é o botão de login
@@ -64,6 +65,8 @@
             - Só funcionará se as validações do input passar
             - Chama a controller de User na rota de login, via post, enviando o e-mail e password
                 - Com o acess token retonado armazenado em memória ou localStorage e Refresh token: pode ir em HTTPOnly Cookie ou localStorage (HTTPOnly é mais seguro)
+                - E manda para a tela inicial de ADM
+                - Se der erro exibir  amensagem em tela
 
     - Instalar e configurar pacote de envio de e-mail        
     
