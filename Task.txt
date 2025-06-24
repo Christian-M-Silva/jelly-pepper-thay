@@ -8,7 +8,7 @@
 
 - Proximos passos
     - Dividi as funcionalidades por telas, agora tenho que planejar em audio e colocar no grupo de tasks como vai ser, não preciso planejar necessariamente o layout, mas sempre concientizar a importancia de parar e refletir no layout, o uso de componentes e os testes, e que no final de tudo. As funcionalidades e telas que preciso planejar e colocar em audio:
-        - PAREI AQUI!!!!!!!: Já planejei tudo em audio agora estou revendo e anotando, 
+        - PAREI AQUI!!!!!!!: Já planejei tudo em audio agora estou revendo e anotando, no segundo 2:40 fazer a parte de como usar o Token para validar se está logado e como usar o acess token e o refresh token, já anotei como armazena o token no front, terei que entender esse fluxo e anotar ele o chat gpt pode me ajudar (https://chatgpt.com/c/6859be01-f000-8010-8439-a7c39e177dec)
 
     - Analisar o fluxo para ver se tem alguma coisa mais de testes
    
