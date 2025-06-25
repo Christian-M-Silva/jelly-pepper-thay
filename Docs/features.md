@@ -2,6 +2,7 @@
 
 ## Autenticação
 - Login
+- Alterar senha
 
 ## Vitrine virtual
 - Adicionar ao carrinho
