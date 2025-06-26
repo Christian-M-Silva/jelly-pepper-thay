@@ -9,6 +9,8 @@
 - Redirecionar para WhatsZap com os produtos selecionados
 - Visualizar os produtos cadastrado
 
+## Sistema
+- Enviar e-mail
 
 ## Painel de administração (ADM)
 - Visualizar os produtos cadastrado
