@@ -18,5 +18,5 @@
 - Editar produtos
 - Excluir os produtos
 
-ESTOU NA PARTE DE DESIGN: Estou agora construindo as telas parei na parte de desenhar o fluxo da tela em ## Tela de Listar produtos ADM
+ESTOU NA PARTE DE DESIGN: Estou agora construindo as telas parei na parte de desenhar o fluxo da tela em ## Tela de Add produtos ADM
 

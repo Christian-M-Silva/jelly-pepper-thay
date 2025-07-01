@@ -2,6 +2,7 @@
 
 ## Componentes
 - Input com label sem validação nele 
+- Textearea com label sem validação nele 
 - Botão 
 - Modal com titulo opcional e com descrição e com 2 botões opcionais, sim e não
 - Toast
@@ -40,6 +41,29 @@
 - Modal de confirmação (Componente de Modal) (Ambas opções fecha o modal)
 
 ## Tela de Add produtos ADM
+- Campo de Nome de produtos (Componente input) (Obrigatorio)
+- Campo de valor de produto (Componente input) (Mascara de R$) (Obrigatorio)
+- Campo de foto do produto (Componente input) (Drop e drag) (Obrigatorio)
+- Campo de descrição do produto (Componente textearea) (Obrigatorio)
+- Botão de adicionar produto (Ao ser clicado manda para a tela de visualizar produtos) (Componente de botão)
+- Botão de Cancelar (Ao ser clicado manda para a tela de visualizar produtos) (Componente de botão)
+
 ## Tela de Editar produtos ADM
+- Toggle de ativar/desativar produto
+- Campo de Nome de produtos (Componente input) (Obrigatorio)
+- Campo de valor de produto (Componente input) (Mascara de R$) (Obrigatorio)
+- Campo de foto do produto (Componente input) (Drop e drag) (Obrigatorio)
+- Campo de descrição do produto (Componente textearea) (Obrigatorio)
+- Botão de adicionar produto (Ao ser clicado manda para a tela de visualizar produtos) (Componente de botão)
+- Botão de Cancelar (Ao ser clicado manda para a tela de visualizar produtos) (Componente de botão)
+
 ## Tela de listar produtos para compra
+- Algum componente que permita visualizar os produtos, com seu nome, valor unitario e o valor vezes a quantidade, descrição e foto e que possa selecionar a quantidade e selecionar o produto
+- Componente para exibir o valor total dos produtos selecionados
+- Botão de confirmar compra (Componente botão) (Manda para a tela de Carrinho)
+
 ## Tela de carrinho
+- Componente que exibe todos os produtos, com a quantidade, valor unitario e o valor total
+- Exibir o valor total da compra
+- Botão de concluir compra (Componente botão) (Manda para o zap)
+- Botão de cancelar compra (Componente botão) (Manda para a tela de visualizar produtos)
