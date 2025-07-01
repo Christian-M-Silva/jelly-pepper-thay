@@ -27,3 +27,10 @@
 **Onde:** Telas de Visualizar produtos, adicionar e editar produtos
 **Motivo:** Evitar a necessidade de fazer vários logins
 **Ação esperada:** O sistema deve manter o usuario logado se o token ainda estiver valido, do contrario o redireciona para a tela de Login.
+
+### REGRA 005 - Modal de confirmação
+**Descrição:** O modal só será de confirmação se o usuario enviar alguma função, onde os botões de sim ou não só apareceram se cada uma tiver uma confirmação
+**Aplica-se a:** Sistema  
+**Onde:** Componente de modal
+**Motivo:** Flexibilidade no uso do componente
+**Ação esperada:** O sistema deve exibi os botões sim e não quando cada um tiver uma ação passada para eles
