@@ -9,6 +9,7 @@
 
 ## Tela de login
 - Background
+- Um fundo glass blur
 - Campo de e-mail (Componente de input)
   - Obrigatorio e tem que ser e-mail
   - Mensagem de erro obrigatorio: Esse campo é obrigatorio
