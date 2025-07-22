@@ -1,27 +1,27 @@
 # Fluxo de telas
 
 ## Componentes
-- Input com label sem validação nele 
-- Textearea com label sem validação nele 
-- Botão 
-- Modal com titulo opcional e com descrição e com 2 botões opcionais, sim e não
-- Toast
+x Input com label sem validação nele 
+x Textearea com label sem validação nele 
+x Botão 
+x Modal com titulo e com descrição opcional e com 2 botões opcionais com labels descritivos
+x Toast
 
 ## Tela de login
-- Background
-- Um fundo glass blur
-- Campo de e-mail (Componente de input)
-  - Obrigatorio e tem que ser e-mail
-  - Mensagem de erro obrigatorio: Esse campo é obrigatorio
-  - Mensagem de erro e-mail: Esse dado não é um e-mail
-- Campo de senha (Componente de input)
-  - Obrigatorio
-  - Mensagem de erro obrigatorio: Esse campo é obrigatorio
-- Modal informando para verificar e-mail (Não mencionar o nome do e-mail) (Componente de Modal)
-- Link para alterar senha (Que chama o modal de verificar e-mail)
-- Botão de login que pode chamar (Componente de Botão):
-  - Chama a tela de Listar produtos ADM
-  - Se der erro toast informando a mensagem de erro (Componente de toast)
+x Background
+x Um fundo glass blur
+x Campo de e-mail (Componente de input)
+  x Obrigatorio e tem que ser e-mail
+  x Mensagem de erro obrigatorio: Esse campo é obrigatorio
+  x Mensagem de erro e-mail: Esse dado não é um e-mail
+x Campo de senha (Componente de input)
+  x Obrigatorio
+  x Mensagem de erro obrigatorio: Esse campo é obrigatorio
+x Link para alterar senha (Que chama o modal de verificar e-mail)
+x Botão de login que pode chamar (Componente de Botão):
+  x Chama a tela de Listar produtos ADM
+  x Se der erro toast informando a mensagem de erro (Componente de toast)
+x Modal informando para verificar e-mail (Não mencionar o nome do e-mail) (Componente de Modal)
 
 ## Tela de alterar senha
 - Background mesmo da tela de login

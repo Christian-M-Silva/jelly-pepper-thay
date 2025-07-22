@@ -18,5 +18,5 @@
 - Editar produtos
 - Excluir os produtos
 
-ESTOU NA PARTE DE DESIGN:  Estou agora construindo as telas parei na parte de construir no figma seguindo o fluxo das telas que eu montei parei em montar a tela, estou montando a tela e ajustando o componente quando necessario, por hora comecei fazneod a tela de login, coloquei o bacground falta o efeito de vidro fosco
+ESTOU NA PARTE DE DESIGN:  Estou agora construindo as telas parei na parte de construir no figma seguindo o fluxo das telas que eu montei parei em montar a tela, estou montando a tela e ajustando o componente quando necessario, por hora comecei fazendo a tela de login, agora estou vendo o que falta e incluir as variações
 
