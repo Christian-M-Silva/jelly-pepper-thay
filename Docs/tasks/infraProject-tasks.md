@@ -7,5 +7,5 @@
 - [ ] Configurar a hospedagem Do BD
 - [ ] Configurar o deploy
 - [ ] Documentar as informações de hospedagens
-- [ ] Criar as tasks da tela de Login (Front, back e testes)
+- [ ] Criar as tasks da tela de Login (Front(Limpar a etsrutura de teste que tenho), back e testes)
 - [ ] Continuar o design das outras telas no Figma
