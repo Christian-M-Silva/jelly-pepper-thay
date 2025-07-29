@@ -1,0 +1,11 @@
+- [ ] Configurar a hospedagem no Netifly (Para ajudar [ChatGpt](https://chatgpt.com/c/687ffa45-1878-8010-8f59-77d9936457f0))
+    - [x] Criar a estrutura inicial do Front com o React, pode ter o Routes
+    - [ ] Add ao [Netlify](https://app.netlify.com/)
+    - [ ] Aprender a contiguar o GitHub Actions 
+    - [ ] Incluir os testes antes do deploy
+- [ ] Configurar a hospedagem no Render
+- [ ] Configurar a hospedagem Do BD
+- [ ] Configurar o deploy
+- [ ] Documentar as informações de hospedagens
+- [ ] Criar as tasks da tela de Login (Front, back e testes)
+- [ ] Continuar o design das outras telas no Figma
